@@ -13,6 +13,7 @@ public class Basket {
         items.add(item);
     }
     public void clear() {
+        totalPrice = 0;
         items.clear();
     }
 
